@@ -18,24 +18,28 @@
         <h3>Drag them to your bookmark bar</h3>
         <ul class="bookmarklets">
             <li style="background-image: url(img/debug.png);">
-                <a href="javascript: (function(){window.location = window.location + '&ChangeAction=SetDebugSession&Debug=0'}())">Debung Mode 0</a>
+                <a href="javascript:void%20function(){(function(){var%20n=%22ChangeAction=SetDebugSession%26Debug=0%22;window.location.href.indexOf(n)%3E-1||(n=window.location.href.indexOf(%22%3F%22)%3E-1%3F%22%26%22+n:%22%3F%22+n,window.location=window.location+n)})()}();">Debung Mode 0</a>
                 <span>Debug Mode 0</span>
             </li>
             <li style="background-image: url(img/debug.png);">
-                <a href="javascript: (function(){window.location = window.location + '&ChangeAction=SetDebugSession&Debug=1'}())">Debung Mode 1</a>
+                <a href="javascript:void%20function(){(function(){var%20n=%22ChangeAction=SetDebugSession%26Debug=1%22;window.location.href.indexOf(n)%3E-1||(n=window.location.href.indexOf(%22%3F%22)%3E-1%3F%22%26%22+n:%22%3F%22+n,window.location=window.location+n)})()}();">Debung Mode 1</a>
                 <span>Debug Mode 1</span>
             </li>
             <li style="background-image: url(img/debug.png);">
-                <a href="javascript: (function(){window.location = window.location + '&ChangeAction=SetDebugSession&Debug=2'}())">Debung Mode 2</a>
+                <a href="javascript:void%20function(){(function(){var%20n=%22ChangeAction=SetDebugSession%26Debug=2%22;window.location.href.indexOf(n)%3E-1||(n=window.location.href.indexOf(%22%3F%22)%3E-1%3F%22%26%22+n:%22%3F%22+n,window.location=window.location+n)})()}();">Debung Mode 2</a>
                 <span>Debug Mode 2</span>
             </li>
             <li style="background-image: url(img/stop.png);">
-                <a href="javascript: (function(){window.location = window.location + '&ChangeAction=SetDebugSession&DisableAdditionalHead=1&Debug=2'}())">Disable Custom</a>
+                <a href="javascript:void%20function(){(function(){var%20i=%22DisableAdditionalHead=1%22;window.location.href.indexOf(i)%3E-1||(i=window.location.href.indexOf(%22%3F%22)%3E-1%3F%22%26%22+i:%22%3F%22+i,window.location=window.location+i)})()}();">Disable Custom</a>
                 <span>Disable Custom</span>
             </li>
             <li style="background-image: url(img/auto-fill.png);">
                 <a href="javascript:void%20function(){(function(){var%20e=function(e){var%20a,n=this,t=document.querySelectorAll(e);switch(t.length){case%200:t=void%200;break;case%201:t=t[0];break;default:t=Array.prototype.slice.call(t)}return%20a=t||{},a.val=function(e){return%20void%200===t%3Fn:%22[object%20Array]%22===Object.prototype.toString.call(t)%3F(t.forEach(function(a){a.value=e}),n):%22object%22==typeof%20t%3F(t.value=e,n):n},a};e('input[name=%22Company%22]').val(%22Milestones%20GmbH%22),e('input[name=%22Name%22]').val(%22Milestones.com%22),e('input[name=%22Slogan%22]').val(%22Harder%20than%20a%20rock%22),e('input[name=%22FirstName%22]').val(%22Max%22),e('input[name=%22LastName%22]').val(%22Mustermann%22),e('input[name=%22Street%22]').val(%22Heinrich-Heine-Str.%201%22),e('input[name=%22Zipcode%22]').val(%2207749%22),e('input[name=%22City%22]').val(%22Jena%22),e('select[name=%22CountryID%22]').val(%22276%22),e('input[name=%22EMail%22]').val(%22mmustermann%40epages.de%22),e('input[name=%22Phone%22]').val(%2212345/54321%22),e('input[name=%22Fax%22]').val(%2212345/54322%22),e('input[name=%22UserName%22]').val(%22mmustermann%40epages.de%22),e('input[name=%22Password%22]').val(%22qwert6%22)})()}();">Auto-Fill</a>
                 <span>Auto-Fill</span>
+            </li>
+            <li style="background-image: url(img/mobile.png);">
+                <a href="javascript:void%20function(){(function(){var%20o=window.location.pathname;window.location.href.indexOf(%22.mobile%22)%3E-1||(o=o.replace(%22.sf%22,%22.mobile%22),window.location=window.location.href.replace(window.location.pathname,o))})()}();">Mobile-SF</a>
+                <span>Mobile-SF</span>
             </li>
         </ul>
     </body>
